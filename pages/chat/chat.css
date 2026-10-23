@@ -3,3 +3,43 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    margin: 0;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     width: 375px;
+     margin: auto;
+}
+.header h2 {
+    text-align: center;
+    font-size: 17px;
+    line-height: 22px;
+    font-weight: 600;
+    /* width: 175px;
+    height: 44px; */
+    /* top: 44px;
+    left: 100px; */
+} 
+.header{
+   
+    height: 44px;
+    border-bottom: 2px solid rgb(184, 181, 181);
+
+}
+.chat{
+    display:flex;
+    gap: 6px;
+    width: 375px;
+     border-bottom: 2px solid rgb(184, 181, 181);
+
+
+
+
+}
+.info-container{
+    display: flex;
+    gap: 16px;
+    
+
+
+}
