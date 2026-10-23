@@ -2,4 +2,141 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    align-items: center;
+
+    
+}
+
+body {
+    background-color: #fdfdfd; 
+    padding-bottom: 90px; 
+    max-width: 400px;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+.app-container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    min-height: 100vh;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+.profile-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 20px 20px;
+}
+.avatar-container {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 2px dashed #4a90e2; 
+    padding: 5px;
+
+}
+.avatar {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.name{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+/* -------------------------------------------------- */
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; 
+  width: 100%px;
+  padding-bottom: 20px;
+  margin: 20px;
+}
+
+.btn {
+  padding: 15px 20px;
+  font-size: 14px;
+  font-weight: 700; 
+  border-radius: 6px;
+  width: 100%;
+}
+
+.btn1{
+  background-color: #000;
+  color: #fff;
+  border: 2px solid #000;
+}
+
+.btn2:hover {
+  opacity: 0.8;
+}
+
+.btn2 {
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #000;
+}
+
+.btn2:hover {
+  background-color: #f0f0f0;
+}
+
+/* --------------------------------------------------- */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: auto auto; 
+    gap: 5px; 
+    padding: 0 2px;
+    margin: 10px;
+}
+
+.left-column, .right-column {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+    
+}
+
+.grid-img {
+    width: 100%;
+    display: block;
+    padding-bottom: 5px;
+}
+.size1{
+    height:365px ;
+}
+
+/* -------------------------------------------- */
+
+.nav-bar {
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    width: 300px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    border-top: 1px solid #e0e0e0;
+    z-index: 100;
+    border-top: #c2c6ca solid 2px;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+.plus-btn {
+    background: red;
+    color: white;
+    border-radius: 40%;
+    width: 80px;
+    height: 40px;
+    font-size: 20px;
 }
